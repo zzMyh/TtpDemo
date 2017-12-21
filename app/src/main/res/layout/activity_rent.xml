@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="true"
+    tools:context="cn.myh.zz.myokhttputils_greendao.RentActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="onClick"
+        android:id="@+id/btn"
+
+        />
+
+    <com.cjj.MaterialRefreshLayout
+        android:id="@+id/rent_materialRefreshLayout_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:overlay="false"
+        app:progress_colors="@array/material_colors"
+        app:wave_color="#90ffffff"
+        app:wave_height_type="higher"
+        app:wave_show="true"
+        >
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rent_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </com.cjj.MaterialRefreshLayout>
+
+
+</LinearLayout>

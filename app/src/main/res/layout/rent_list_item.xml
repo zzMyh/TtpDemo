@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:padding="16dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/rent_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="求 下城区|2室|普通装修 的房源"
+                />
+            <TextView
+                android:id="@+id/rent_money"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="租金范围：2000-3000元/月"
+                android:textColor="#ff8888"
+                />
+            <TextView
+                android:id="@+id/rent_start_time"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="起租时间：2017-11-25"
+                android:textColor="#ff8888"
+                />
+            <TextView
+                android:id="@+id/rent_name"
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="张三"
+                />
+
+
+        </LinearLayout>
+
+            <ImageView
+                android:id="@+id/rent_item_phone"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+
+                />
+        <TextView
+            android:id="@+id/rent_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2017-10-20"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:textColor="#ff8888"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>
